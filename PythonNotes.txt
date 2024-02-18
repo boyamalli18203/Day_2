@@ -1,0 +1,38 @@
+*  PYTHON BOOT CAMP**
+
+1.What is python??
+  @@ Python is hight level,interpreted language and Dynamic Typed programming language, object oriented programming language.
+
+  **High level language is programming language desinged simplfy to computer programming language and make easy to access to humans.
+  **Interpreted language is programming language designed to exute the code line by line.
+  **Dynamic Typed Programming language , when we declaration, initialisation of varialbles no need to mention the data type,at the run  time will take .
+
+
+VARIABLE 
+
+     ** variable is a container the store the values, identify the values single variablem,represents the address of the variavle where we have to store value.
+   x=10;
+   y="mallikarungkkn";
+   z='i';
+
+Data Types: It is represents the kind of the  value to store , what kind of operations to perform the data types 
+
+     1.Numeric __ int,flaot
+     2.Boolean __ bool
+     3.Sequence __ list,tuple,range
+     4.set      __ set
+     5.Text    __ str
+
+
+TYPE CONVERSION
+     It represents the one data type to another data type is called type conversion. int().float(),complex(),
+
+    eg: x=1,y="mal",z=10+j;
+     convert int to float, and complex
+   
+    d=float(x);
+    e=complex(x);
+
+
+      
+  
