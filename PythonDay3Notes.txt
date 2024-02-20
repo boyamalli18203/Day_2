@@ -1,0 +1,47 @@
+why index start with 0,string upper, lower, array static and dynamic array .where we have to use list
+Why index starts with 0.
+
+ ** computer can identfiy the memory address of the element,first element should be 0,because of the we need to add another element to the array 1.
+ ** String  is data type we can store the text, so many methods are in string, like   UPPER(),LOWER(),COUNT(), etc.
+ ARRAY:
+  what is array??
+   ** array can store the  multiple elements with single variable.
+   ** In array can store the values based on the index.
+   ** Array can be static and dyanmic of the size.
+   ** Static means size of the array is fixed, not growable  at run time
+   ** Array can  store the only homogeneous elements. can't store the heterogenous elements.
+   ** In Array we can  add the elements using the method this method is var.appened("ueo"), var.pop("ueo"), var.clear("ueo"), var.sort(), var.revese(),var.remove("mall"),
+   ** We identify the  no.of elements in the array ,, using the length method, len().
+   eg:: 
+   cars = ["Ford", "Volvo", "BMW"]
+   
+
+   
+
+   List::
+     ** List is most verstailed data type in python,.
+     ** list is ennhance of the array
+     ** list can store the heterogeous data type, and homegenous data.
+     ** The size of the list can be changed dynamically.
+     ** List can store the values in ordered,changable,allow the duplicates,
+     eg::
+     cars = ["Ford", "Volvo", "BMW",8,'7'," ","", 8]
+
+
+     where we can use the list??
+      ** we need to store the age of 5 students, instead of creating 5 separate variables, we can simply create a list
+      ** Some real-world examples of using lists include:Storing a list of customers for a businessKeeping track of a list 
+        of items in a shopping cartStoring a list of tasks in a to-do list application
+
+      ** In organisation store the employee details like employeeId,employeeName,EmployeeDignation,EmployeeAdress etc. 
+
+
+
+        questions ask to trainer
+        1. what is difference between the list and tuple,
+        2.how to identify the list and array in python,declaration inistalisation of the array and list and tupple
+         
+
+    
+
+
