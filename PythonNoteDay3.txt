@@ -1,0 +1,90 @@
+variable,String is immuatable,why immutables,list,
+
+VARIABLE NAMING CONVENTION IN PYTHON
+** Variable name must and shoulb be starts with Letters or underscore Charcter(_)
+** variable name should not starts with numericals
+** variavle name should not starts with special charcters like (*&^%#@!<><?)
+** While wrriting the variable name must should follow the camel Case (produOfTwoNumbers).
+** A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
+** A Variable names are case-sensitive (age, Age and AGE are three different variables)
+** A variable name cannot be any of the Python keywords.
+eg:
+x=10,
+_c=3
+m_v="890"
+
+
+String:
+
+String is sequence of the Characters,or txt format wrrite in double or single quoets.
+a="Tom and Jerry"
+
+String methods:
+a.lower()
+a.upper()
+a.count()
+a.reverse()
+a.strip() remove the space starting and ending of the string.
+a.replace()
+a.remove()
+a.split() 
+
+Why Immutable in programing language??
+## immutable objects can be useful in multi-threaded applications. Multiple threads can act on data represented
+   by immutable objects without concern of the data being changed by other threads.
+## Immutable objects are therefore considered more thread-safe than mutable objects.
+** thread safity,security, avoid the ombiguity etc.
+
+What is immutable??
+** Immutable means we can't change or modify or update the value of string
+** We can change the value of the String  create the object then only change or update the value
+eg:
+ String is immutable 
+  name="malli"
+   name="Karjuna"
+print(name)
+name= name+" "+name
+print(name)
+
+
+ What is mutable??
+** Mutable means we can easly modify the value without creating the object.
+
+List
+  ** List can store the heterogenous elments and homegenous elements
+  ** List can store the values based on the index
+  ** List allow the duplicate values
+  ** no need to mention the data type of list 
+  ** in python every variable is object.
+
+eg:: fridege,employee details, cart page,Books,
+methods in list
+eg:num=[8,8.485,38,48,'ueor',"ieoeo"]
+len(num)
+num.count(38)
+num.appdend("malli")
+num.pop()
+num.pop(8)
+num.remove("malli")
+reverse(num)
+what is Homegenous??
+ we have to store the same elements, similar values can store.
+eg :: int num=[8,8.485,38,48]
+      Str txs=["Ma","Ra",'Ja']
+
+what is heterogenous??
+we have store teh different elements,the comibination of the numurial, alphabitical,
+
+eg ::  num=[8,8.485,38,48,'ueor',"ieoeo"]
+      txs=["Ma","Ra",'Ja']
+
+
+
+
+
+
+
+
+
+
+
